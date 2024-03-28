@@ -68,16 +68,20 @@ body{
     
 }
 .intro{
-    display: flex;
+  
+    /* justify-content: center; */
     /* background-color: #252525; */
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;
     margin-top: 110px;
     margin-bottom: 60px;
-    margin-left: 123px;
+    /* margin-left: 123px; */
 }
 .myimg{
     height: 223px;
     width: 223px;
-    margin-top: 5px;
+    margin-top: 50px;
     margin-left: 66px;
      
 }
@@ -85,12 +89,12 @@ body{
     
     height: 300px;
     width: 300px;
-    margin-left: 200px;
+   
 }
 .introo{
     
     width: 500px;
-    margin-top: 40px;
+    margin-top: 15px;
     padding-left: 30px;
 }
 .myself{
@@ -174,4 +178,6 @@ body{
     margin-top: 20px;
    
 }
+
+
 
